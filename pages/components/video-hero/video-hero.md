@@ -9,6 +9,8 @@ intro_paragraph: >
 
 ---
 
+{% include code-snippets.html %}
+
 {% include_relative default.md %}
 {% include_relative single-43.md %}
 {% include_relative single-54.md %}
@@ -19,3 +21,10 @@ intro_paragraph: >
 {% include_relative single-329.md %}
 
 {% include_relative double.md %}
+
+<h2 id="code">Code Snippets</h2>
+
+### Default Video Hero Example
+{% highlight html %}
+  {% include_relative video-hero.html %}
+{% endhighlight %}

@@ -60,6 +60,12 @@ defaults:
 # Build settings
 markdown: kramdown
 
+# Collections
+collection:
+  logo:
+    output: true
+    permalink: /brand-assets/RHD_Full_Logo/:name
+
 # Kramdown options
 kramdown:
   # Prevent IDs from being added to h1-h6 tags

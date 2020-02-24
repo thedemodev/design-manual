@@ -88,6 +88,7 @@ div.code-toolbar > .toolbar {
 
 figure.highlight {
   position: relative;
+  margin: 2em 0;
   pre {
     code {
       &[data-lang]::before {

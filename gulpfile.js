@@ -165,6 +165,13 @@ const
       .pipe(gulp.dest('./_site/assets/img/'));
   }
 
+  function minimizeBrandAssets(cb) {
+    return gulp.src ('./brand-assets/**/*.{jpg,jpeg,png,svg,ico}')
+      .pipe(flatMap(retinaVersions))
+      .pipe(scaleImages(imageFileName))
+      .pipe(imagemin([mozjpeg(), pngquant()]));
+  }
+
   function copyStatic(cb) {
     gulp.src('./assets/prism/*.*')
       .pipe(gulp.dest('./_site/assets/prism/'))

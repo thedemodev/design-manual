@@ -1,19 +1,15 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="pf-c-nav__list">
-  <li class="pf-c-nav__item pf-m-expandable pf-m-expanded">
-    <a href="/components" {% if page.title == 'Components Overview' %} class="pf-c-nav__link pf-m-current rhddx-m-uppercase" aria-current="page" {% else %} class="pf-c-nav__link rhddx-m-uppercase" {% endif %} >
-      Overview
-    </a>
-    <section class="pf-c-nav__subnav">
-      {% for page in site.pages %}
-      <ul class="pf-c-nav__simple-list">
-        {% if page.section == "components" %}
-        <li class="pf-c-nav__item">
-          <a href="{{ page.url }}" class="pf-c-nav__link">{{ page.title }}</a>
-        </li>
-        {% endif %}
-      </ul>
+{% for item in site.data.components.toc %}
+<nav class="pf-c-nav pf-m-dark" aria-label="Global">
+  <section class="pf-c-nav__section" aria-labelledby="grouped-title1">
+    <h2 class="pf-c-nav__section-title" id="grouped-title1">{{ item .title }}</h2>
+    <ul class="pf-c-nav__list">
+      {% for entry in item.subfolderitems %}
+      <li class="pf-c-nav__item">
+        <a href="{{ entry.url | prepend: site.baseurl }}" {% if page.title == entry.page %} class="pf-c-nav__link pf-m-current" {% else %} class="pf-c-nav__link" {% endif %}>{{ entry.page }}</a>
+      </li>
       {% endfor %}
-    </section>
-  </li>
-</ul>
+    </ul>
+  </section>
+</nav>
+{% endfor %}

@@ -9,7 +9,7 @@ intro_paragraph: >
 
 ---
 
-<h1 style="font-size: 2.25rem;">Card Examples</h1>
+{% include code-snippets.html %}
 
 <h2 style="font-size: 1.75rem; margin: 1rem 0;">Articles and Blogs</h2>
 <div class="pf-l-gallery pf-m-gutter">
@@ -1000,3 +1000,15 @@ intro_paragraph: >
     </div>
   </div>
 </div>
+
+<h2 id="code">Code Snippets</h2>
+
+### Basic Card Example
+{% highlight html %}
+  {% include_relative card-basic.html %}
+{% endhighlight %}
+
+### Cheat Sheet Card Example
+{% highlight html %}
+  {% include_relative card-cheat-sheet.html %}
+{% endhighlight %}
