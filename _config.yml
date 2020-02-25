@@ -89,7 +89,6 @@ keep_files:
 # Exclude from processing.
 # The following items will not be processed.
 exclude:
-  - README.md
   - LICENSE.txt
   - netlify.toml
   - feed.xml
