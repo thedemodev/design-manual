@@ -13,7 +13,6 @@ intro_paragraph: >
     <div class="region region-content">
       <div id="block-rhdp2-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
         <article role="article" class="node">
-
           <!-- All Product Listing -->
           <div class="assembly component pf-c-content rhd-c-all-products-list">
             <div class="pf-l-grid pf-m-gutter">

@@ -6,3 +6,5 @@ section: pages
 intro_paragraph: >
 
 ---
+
+{% include missing-code.html %}

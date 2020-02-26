@@ -13,7 +13,6 @@ intro_paragraph: >
     <div class="region region-content">
       <div id="block-rhdp2-content" data-block-plugin-id="system_main_block" class="block block-system block-system-main-block">
         <article role="article" class="node">
-
           <!-- All Product Listing -->
           <div class="assembly component pf-c-content rhd-c-all-products-list">
             <div class="pf-l-grid pf-m-gutter">
@@ -50,7 +49,6 @@ intro_paragraph: >
               <li><a href="#">VS Code Extensions</a></li>
             </ul>
           </div>
-
           <!-- Collection -->
           <div class="assembly component rhd-c-card-grid pf-c-content rhd-c-collection">
             <div class="pf-l-flex">
@@ -170,24 +168,19 @@ intro_paragraph: >
             </div>
             <!-- END OF PAGINATION -->
           </div>
-
           <!-- CTA -->
           <div class="cta assembly assembly-type-call_to_action component has-background" style="background-image: url();">
             <div class="cta__container pf-l-grid">
               <h2 class="cta__title pf-c-title">Join us for our next live developer tech talk.</h2>
-
               <div class="cta__content">
                 <p><strong>DevNation Live:</strong> Testing in Production. From DevTestOops to DevTestOps</p>
-
                 <p>Presented by Alex Soto Bueno&nbsp;on September 19, 2019 at 12:00 PM ET / 16:00 UTC</p>
               </div>
-
               <div class="cta__cta">
                 <a href="https://onlinexperiences.com/Launch/QReg/ShowUUID=6D298284-3770-4C13-914C-77D1033BD5AC" class="pf-c-button pf-m-heavy">Learn more</a>
               </div>
             </div>
           </div>
-
           <!-- Curated Content -->
           <div class="assembly component rhd-c-card-grid pf-c-content centered">
             <div class="pf-l-flex">
@@ -195,7 +188,6 @@ intro_paragraph: >
             </div>
             <div class="pf-l-flex rhd-c-card-grid__wrapper rhd-l-grid__curated-content">
               <!-- ======== CARD COMPONENTS START HERE ========= -->
-
               <div class="pf-c-card rhd-c-card">
                 <div class="rhd-c-card__curated-content--image rhd-card-color-filter__sepia">
                   <img src="https://developers.redhat.com/sites/default/files/styles/static_item/public/Screen%20Shot%202019-02-28%20at%208.06.14%20AM.png">
@@ -206,7 +198,6 @@ intro_paragraph: >
                   </h3>
                 </div>
               </div>
-
               <div class="pf-c-card rhd-c-card">
                 <div class="rhd-c-card__curated-content--image">
                   <img src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/9f68d9ff431191c5dbf3d8817c0a0e53.jpg">
@@ -217,7 +208,6 @@ intro_paragraph: >
                   </h3>
                 </div>
               </div>
-
               <div class="pf-c-card rhd-c-card">
                 <div class="rhd-c-card__curated-content--image">
                   <img src="https://developers.redhat.com/sites/default/files/styles/teaser/public/externals/e684ea8849af25532d2f2c5ad1c6dab4.png">
@@ -230,7 +220,6 @@ intro_paragraph: >
               </div>
             </div>
           </div>
-
           <!-- Curated Events -->
           <div class="assembly component pf-c-content rhd-c-curated-events">
             <div class="pf-l-grid pf-m-gutter">
@@ -374,7 +363,6 @@ intro_paragraph: >
               <!-- End of Curated Events List content container -->
             </div>
           </div>
-
           <!-- Curated Products / featured_products -->
           <div class="assembly assembly-type-featured_products component rhd-c-card-grid pf-c-content has-background" style="background-image: url();">
             <div class="pf-l-grid pf-m-gutter">
@@ -416,7 +404,6 @@ intro_paragraph: >
               </div>
             </div>
           </div>
-
           <!-- Dynamic Content -->
           <div class="assembly component rhd-c-card-grid pf-c-content">
             <div class="pf-l-flex">
@@ -472,7 +459,6 @@ intro_paragraph: >
               <a class="pf-c-button pf-m-secondary" href="">See More Articles</a>
             </div>
           </div>
-
           <!-- Dynamic Content List -->
           <div class="assembly component pf-c-content rhd-c-dynamic-content-list">
             <div class="pf-l-grid pf-m-gutter">
@@ -562,7 +548,6 @@ intro_paragraph: >
               <!-- End of dynamic-content-list Disqus container -->
             </div>
           </div>
-
           <!-- Events  Hero -->
           <section class="assembly component pf-c-content rhd-c-events-hero dark has-background">
             <div class="pf-l-grid pf-m-gutter">
@@ -659,7 +644,6 @@ intro_paragraph: >
               </div>
             </div>
           </section>
-
           <!-- Featured Article -->
           <div class="assembly component rhd-c-card-grid pf-c-content">
             <div class="pf-l-flex">
@@ -727,7 +711,6 @@ intro_paragraph: >
               <!-- ======== END OF CARD COMPONENTS ========= -->
             </div>
           </div>
-
           <!-- Featured Evangelists -->
           <div class="assembly assembly-type-featured_evangelists component">
             <h2>The People Behind the Program</h2>
@@ -748,7 +731,6 @@ intro_paragraph: >
               </div>
             </div>
           </div>
-
           <!-- Featured Resources -->
           <div class="assembly component rhd-c-card-grid pf-c-content">
             <div class="pf-l-flex">
@@ -847,7 +829,6 @@ intro_paragraph: >
               <!-- ======== END OF CARD COMPONENTS ========= -->
             </div>
           </div>
-
           <!-- Jump to nav -->
           <div class="rhd-jump-to-nav">
               <a href='#'>Item2</a>
@@ -856,7 +837,6 @@ intro_paragraph: >
               <a href='#'>Item5</a>
               <a href='#'>Item6</a>
           </div>
-
           <!-- Product Download Hero -->
           <div class="assembly component pf-l-grid pf-c-content rhd-c-product-download-hero has-background">
             <div class="pf-l-grid__item rhd-c-product-download-hero-aside">
@@ -888,7 +868,6 @@ intro_paragraph: >
               </div>
             </div>
           </div>
-
           <!-- Product  Download List -->
           <div class="assembly component rhd-c-product-download-list pf-c-content">
             <div class="pf-l-grid pf-m-gutter pf-u-pt-lg pf-u-pb-lg">
@@ -914,7 +893,6 @@ intro_paragraph: >
                 <!-- End of version row item -->
               </div>
               <!-- End of version row -->
-
               <!-- Start of version row -->
               <div class="pf-l-grid__item pf-m-12-col">
                 <h3 class="pf-u-mb-md">1.0.0</h3>
@@ -970,7 +948,6 @@ intro_paragraph: >
               <!-- End of version row -->
             </div>
           </div>
-
           <!-- Product Try It Hero -->
           <div class="assembly component pf-l-grid pf-c-content rhd-c-product-download-hero has-background">
             <div class="pf-l-grid__item rhd-c-product-download-hero-aside">
@@ -1001,7 +978,6 @@ intro_paragraph: >
               </div>
             </div>
           </div>
-
           <!-- Rich Text -->
           <div class="assembly component rich-text has-background" style="background-image: url(https://developers.redhat.com/images/design/product-hero-light.png);">
             <div class="pf-l-grid pf-m-gutter">
@@ -1018,7 +994,6 @@ intro_paragraph: >
               </div>
             </div>
           </div>
-
           <!-- Rich Text Columns -->
           <section class="assembly assembly-type-rich_text_columns component pf-c-content">
             <h1 class="pf-u-mb-lg">Value of Red Hat Fuse</h1>
@@ -1057,7 +1032,6 @@ intro_paragraph: >
               </div>
             </div>
           </section>
-
         </article>
       </div>
     </div>

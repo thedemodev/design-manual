@@ -1,51 +1,13 @@
 ---
 layout: home
-title: Welcome
+title: Red Hat Developer Brand Manual
 permalink: /
 section: home
-intro_paragraph: >
-  The RHDDX site provides the basics for creating components and assemblies for the Red Hat Developer site.
 ---
 
-<div class="pf-l-gallery pf-m-gutter">
-  <div class="pf-l-gallery__item">
-    <div class="pf-c-card">
-      <div class="pf-c-card__header">Components</div>
-      <div class="pf-c-card__body">
-        Example components to be used by the RHDP site.
-      </div>
-    </div>
-  </div>
-  <div class="pf-l-gallery__item">
-    <div class="pf-c-card">
-      <div class="pf-c-card__header">Assemblies</div>
-      <div class="pf-c-card__body">
-        Various assembly examples for Drupal.
-      </div>
-    </div>
-  </div>
-  <div class="pf-l-gallery__item">
-    <div class="pf-c-card">
-      <div class="pf-c-card__header">Design</div>
-      <div class="pf-c-card__body">
-        Design information.
-      </div>
-    </div>
-  </div>
-  <div class="pf-l-gallery__item">
-    <div class="pf-c-card">
-      <div class="pf-c-card__header">Layout</div>
-      <div class="pf-c-card__body">
-        Examples of layouts.
-      </div>
-    </div>
-  </div>
-  <div class="pf-l-gallery__item">
-    <div class="pf-c-card">
-      <div class="pf-c-card__header">Pages</div>
-      <div class="pf-c-card__body">
-        Examples of full pages utilizing the various components/assemblies.
-      </div>
-    </div>
-  </div>
-</div>
+This guide will serve as a home base for the Red Hat Developer story, messaging, and visual brand language. It's a place you can always return to when you have questions about how to best represent Red Hat Developer through messaging or visual elements.
+
+---
+## Story & Messaging Guidelines
+
+Red Hat Developer will continuously evolve, grow, and expand to adapt to new tools and practices. But there are key elements about Red Hat Developer that will never change. This document captures the foundational story and messaging elements core to the Red Hat Developer story.
