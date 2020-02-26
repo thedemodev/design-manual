@@ -157,7 +157,7 @@ const
   // Minimize all of the images located under './assets/img/'
   // Only touches .jpg, .jpeg, .png, and .svg files
   function minimizeImages(cb) {
-    return gulp.src('./assets/img/**/*.{jpg,jpeg,png,svg,ico}')
+    return gulp.src('./assets/img/**/*.{jpg,jpeg,png,svg}')
       .pipe(newer('./_site/assets/img/'))
       .pipe(flatMap(retinaVersions))
       .pipe(scaleImages(imageFileName))
@@ -173,10 +173,12 @@ const
   }
 
   function copyStatic(cb) {
+    gulp.src('./assets/img/favicon.{png,ico}')
+      .pipe(gulp.dest('./_site/assets/img/'));
     gulp.src('./assets/prism/*.*')
-      .pipe(gulp.dest('./_site/assets/prism/'))
+      .pipe(gulp.dest('./_site/assets/prism/'));
     gulp.src('./assets/themes/custom/rhdp2/fonts/patternfly/**/*.*')
-      .pipe(gulp.dest('./_site/themes/custom/rhdp2/fonts/patternfly/'))
+      .pipe(gulp.dest('./_site/themes/custom/rhdp2/fonts/patternfly/'));
     gulp.src('./assets/js/*.*')
       .pipe(gulp.dest('./_site/assets/js/'));
     cb();
@@ -211,15 +213,16 @@ const
     });
   }
 
-  exports.cssDev   =  cssDev;
-  exports.rhdpCSS  =  rhdpCSS;
-  exports.sass     =  buildSass;
-  exports.watch    =  watchSass;
-  exports.jekyll   =  buildJekyll;
-  exports.serve    =  serveJekyll;
-  exports.clean    =  cleanJekyll;
-  exports.static   =  copyStatic;
-  exports.imagemin =  minimizeImages;
+  exports.cssDev           =  cssDev;
+  exports.rhdpCSS          =  rhdpCSS;
+  exports.sass             =  buildSass;
+  exports.watch            =  watchSass;
+  exports.jekyll           =  buildJekyll;
+  exports.serve            =  serveJekyll;
+  exports.clean            =  cleanJekyll;
+  exports.copyStatic       =  copyStatic;
+  exports.minimizeImages   =  minimizeImages;
+  exports.minimizeBrand    =  minimizeBrandAssets;
 
   exports.build = gulp.series(
     cleanJekyll,
