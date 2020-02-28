@@ -2264,7 +2264,7 @@ Prism.languages.twig = {
     var linkCopy = document.createElement('button');
     linkCopy.classList.add('pf-c-button');
     linkCopy.classList.add('pf-m-control');
-    // linkCopy.textContent = 'Copy';
+    linkCopy.textContent = '';
 
     if (!ClipboardJS) {
       callbacks.push(registerClipboard);
@@ -2282,7 +2282,7 @@ Prism.languages.twig = {
       });
 
       clip.on('success', function() {
-        // linkCopy.textContent = 'Copied!';
+        linkCopy.textContent = '  Copied!';
 
         resetText();
       });
@@ -2295,7 +2295,7 @@ Prism.languages.twig = {
 
     function resetText() {
       setTimeout(function () {
-        // linkCopy.textContent = 'Copy';
+        linkCopy.textContent = '';
       }, 5000);
     }
   });

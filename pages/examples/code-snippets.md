@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Code Snippets
-permalink: /pages/examples/code-snippets
+permalink: /code-snippets
 section: pages
 intro_paragraph: >
   Various code snippet examples for the Design Manual site.
