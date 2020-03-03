@@ -15,6 +15,7 @@
 # Deploy Preview context: all deploys generated from a pull/merge request will
 # inherit these settings.
 [context.deploy-preview]
+  base = "/"
   publish = "docs/"
   command = "npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
@@ -42,7 +43,3 @@
   to = "/design-manual"
   status = 302
 
-[[redirects]]
-  from = "/design-manual/code"
-  to = "/design-manual/code-snippets"
-  status = 302
