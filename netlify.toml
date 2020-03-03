@@ -1,7 +1,6 @@
 [build]
   base = "/"
   publish = "docs/"
-  # command = "npm run deployment"
   command = "npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
 [build.environment]
@@ -11,14 +10,12 @@
 # deploy contexts will inherit these settings.
 [context.production]
   publish = "docs/"
-  # command = "npm run deployment"
   command = "npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
 # Deploy Preview context: all deploys generated from a pull/merge request will
 # inherit these settings.
 [context.deploy-preview]
   publish = "docs/"
-  # command = "npm run deployment"
   command = "npm run build && rm -rf docs && mkdir docs && rm -rf _site/docs && cp -r _site/** docs"
 
 # If skip_processing = true, all other settings are ignored
@@ -43,4 +40,9 @@
 [[redirects]]
   from = "/"
   to = "/design-manual"
+  status = 302
+
+[[redirects]]
+  from = "/design-manual/code"
+  to = "/design-manual/code-snippets"
   status = 302
