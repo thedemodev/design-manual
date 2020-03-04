@@ -42,4 +42,4 @@
   from = "/"
   to = "/design-manual"
   status = 302
-
+  force = true
